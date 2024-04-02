@@ -1,0 +1,123 @@
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../forms/style.css">
+        <title>Forms</title>
+    </head>
+    <body>
+        <form>
+            <div class="perguntas">
+                <h1>Forms</h1>
+                <p>Como funciona o container form?</p>
+                <p>Quais os tipos de input?</p>
+                <p>Como funciona o post?</p>
+            </div>
+            <div class="text"></div>
+                <h3>Input Text:</h3>
+                <!--<p>Define um campo de entrada de texto de linha única.</p>-->
+                <label for="fname">Primeiro Nome:</label><br>
+                <input type="text" id="fname" name="fname"><br>       
+                <label for="lname">Sobrenome:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+            </div>
+            <br>
+            <div class="password">
+                <h3>Input Password:</h3>
+                <!--<p>Define um campo de senha para o usuário.</p>-->
+                <label for="username">Nome de usuário:</label><br>
+                <input type="text" id="username" name="username"><br>
+                <label for="pwd">Senha:</label><br>
+                <input type="password" id="pwd" name="pwd">                
+            </div>
+            <br>
+            <div class="submit">
+                <h3>Input Submit:</h3>
+                <!--<p>Define um botão para enviar os dados do formulário.</p>-->
+                <label for="fname">Primeiro Nome:</label><br>
+                <input type="text" id="fname" name="fname"><br>       
+                <label for="lname">Sobrenome:</label><br>
+                <input type="text" id="lname" name="lname"><br><br>
+                <input type="submit" value="Enviar">
+            </div>
+            <br>
+            <div class="reset">
+                <h3>Input Reset:</h3>
+                <!--<p>Define um botão de redefinição que redefinirá os valores presentes no formulário.</p>-->
+                <label for="fname">Primeiro Nome:</label><br>
+                <input type="text" id="fname" name="fname"><br>       
+                <label for="lname">Sobrenome:</label><br>
+                <input type="text" id="lname" name="lname"><br><br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Resetar">
+            </div>
+            <br>
+            <div class="radio">
+                <h3>Input Radio:</h3>
+                <!--<p>Define um botão de opção única entre outras opções.</p>-->
+                <input type="radio" id="kiss" name="bandas" value="kiss">
+                <label for="kiss">Kiss</label><br>
+                <input type="radio" id="bj" name="bandas" value="bj">
+                <label for="bj">Bon Jovi</label><br>
+                <input type="radio" id="rhcp" name="bandas" value="rhcp">
+                <label for="rhcp">Red Hot Chili Peppers</label><br>
+                <input type="radio" id="queen" name="bandas" value="queen">
+                <label for="queen">Queen</label><br>
+                <input type="radio" id="fm" name="bandas" value="fm">
+                <label for="fm">Fleetwood Mac</label><br>
+                <input type="radio" id="gd" name="bandas" value="gd">
+                <label for="gd">Green Day</label><br>
+                <input type="radio" id="aero" name="bandas" value="aero">
+                <label for="aero">Aerosmith</label><br>
+                <input type="radio" id="nir" name="bandas" value="nir">
+                <label for="nir">Nirvana</label><br>
+            </div>
+            <br>
+            <div class="checkbox">
+                <h3>Input Checkbox:</h3>
+                <!--<p>Define uma caixa de seleção, permitindo que o usuário selecione zero ou mais opções de um número limitado de opções.</p>-->
+                <input type="checkbox" id="idade" name="informacoes" value="idade">
+                <label for="idade">Eu tenho 17 anos.</label><br>
+                <input type="checkbox" id="cidade" name="informacoes" value="cidade">
+                <label for="cidade">Eu moro em Joinville.</label><br>
+                <input type="checkbox" id="sp" name="informacoes" value="sp">
+                <label for="sp">Eu nasci em São Paulo.</label>
+            </div>
+            <br>
+            <div class="button">
+                <h3>Input Button:</h3>
+                <!--<p>Define um botão.</p>-->
+                <input type="button" onclick="alert('Oi Professor, já ouviu Bon Jovi hoje?')" value="Clique aqui!!">
+            </div>
+            <br>
+            <div class="color">
+                <h3>Input Color:</h3>
+                <!---<p>Define uma cor para campos de entrada.</p>-->
+                <label for="scolor">Selecione a cor que gostaria:</label>
+                <input type="color" id="scolor" name="scolor">
+            </div>
+            <br>
+            <div class="date">
+                <h3>Input Date:</h3>
+                <!--<p>Define uma data para campos de entrada que sejam necessarias.</p>-->
+                <label for="aniversario">Selecione seu aniversário:</label>
+                <input type="date" id="aniversario" name="aniversario">
+            </div>
+            <br>
+            <div class="datetime-local">
+                <h3>Input Datetime-local</h3>
+                <!--<p>Um campo de entrada onde está presente data e hora.</p>-->
+                <label for="aniversarioHora">Selecione seu aniversário(data e hora):</label>
+                <input type="datetime-local" id="aniversarioHora" name="aniversarioHora">
+            </div>
+            <br>
+            <div class="email">
+                <h3>Input E-mail:</h3>
+                <!--<p>É usado para campos de entrada que devem conter um e-mail.</p>-->
+                <label for="email">Insira seu e-mail:</label>
+                <input type="email" id="email" name="email">
+            </div>
+        </form>   
+    </body>
+
+</html>

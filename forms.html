@@ -117,6 +117,58 @@
                 <label for="email">Insira seu e-mail:</label>
                 <input type="email" id="email" name="email">
             </div>
+            <br>
+            <div class="image">
+                <h2>Input Image:</h2>
+                <!--<p>Define uma imagem como botão de envio de informações.</p>-->
+                <input type="image" src="../forms/images.jfif" alt="Submit" width="150" height="110">
+            </div>
+            <br>
+            <div class="file">
+                <h2>Input File:</h2>
+                <!--<p>Define um campo de seleção de arquivo e um botão "navegar" para uploads de arquivos</p>-->
+                <label for="myfile">Selecione seu arquivo:</label>
+                <input type="file" id="myfile" name="myfile">
+            </div>
+            <br>
+            <div class="hidden">
+                <h2>Input Hidden:</h2>
+                <!--<p>Um campo de entrada que fica oculto para o usuário</p>-->
+                <label for="fname">Primeiro Nome:</label><br>
+                <input type="text" id="fname" name="fname"><br>  
+                <input type="hidden" id="cId" name="cId" value="Legendary by Bon Jovi."><br>
+                <input type="submit" value="Enviar"> 
+            </div>
+            <br>
+            <div class="month">
+                <h2>Input Month:</h2>
+                <!--<p>Permite que o usuário selecione informações como mês e ano</p>-->
+                <label for="aMonth">Sua data de nascimento(mÊs e ano):</label>
+                <input type="month" id="aMonth" name="aMonth">
+            </div>
+            <br>
+            <div class="number">
+                <h2>Input Number:</h2>
+                <!--<p>Define um campo de entrada numérico.</p>-->
+                <label for="quantidade">Selecione a quantidade desejada(entre 1 e 20):</label>
+                <input type="number" id="quantidade" name="quantidade" min="1" max="20">
+            </div>
+            <br>
+            <div class="range">
+                <h2>Input Range:</h2>
+                <!--<p>Controla na hora de inserir números cujo valor exato não é importante.</p>-->
+                <label for="vol">Defina o volume(entre 0 e 25):</label>
+                <input type="range" id="vol" name="vol" min="0" max="25">
+            </div>
+            <br>
+            <div class="search">
+                <h2>Input Search</h2>
+                <!--<p>É usado para campos de pesquisa.</p>-->
+                <label for="gsearch">Pesquise no Google:</label>
+                <input type="search" id="gsearch" name="gsearch">
+                <input type="submit" value="Enviar"> 
+            </div>
+            <br>
         </form>   
     </body>
 
